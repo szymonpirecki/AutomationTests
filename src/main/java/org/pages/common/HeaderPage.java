@@ -19,8 +19,9 @@ public class HeaderPage extends BasePage {
     private WebElement trial;
 
     public FormPage navigateToTrialForm(){
-        getStarted.click();
-        trial.click();
+        clickElement(getStarted);
+        clickElement(trial);
+
         return new FormPage(driver);
     }
 }

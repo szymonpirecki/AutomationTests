@@ -39,7 +39,7 @@ public class FormPage extends BasePage {
         SoftAssertions softAssertions = new SoftAssertions();
 
         for (WebElement type : accountTypeOptions) {
-            type.click();
+            clickElement(type);
             String accountType = type.getText();
 
             softAssertions.assertThat(isNumberOfUsersDisabled())
