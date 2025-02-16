@@ -1,0 +1,4 @@
+configData:
+  defaultWait: 3
+  baseURL: "https://xtm.cloud"
+  headless: true

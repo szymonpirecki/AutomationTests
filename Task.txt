@@ -1,0 +1,6 @@
+Task:
+Complete simple test framework based on Page Object Model and tests:
+# Open https://xtm.cloud/ and test navigation to Get Started -> Trial page works correctly.
+# Verify form https://xtm.cloud/trial/ :
+## Test that 'Number of users' select is not interactable until 'Account type' other than 'Freelance - Single user' is selected
+## Test that empty field validation works correctly (choose one to test)
