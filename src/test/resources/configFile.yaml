@@ -1,4 +1,12 @@
 configData:
-  defaultWait: 3
+  defaultWait: 4
+  pause: 2
   baseURL: "https://xtm.cloud"
-  headless: true
+  headless: false
+  firstname: Tomasz
+  lastname: Fromage
+  email: test@email.com
+  company: xtm international
+  phone: 505050505
+  country: Gabon
+  agreementErrorMessage: Please accept subscription agreement.

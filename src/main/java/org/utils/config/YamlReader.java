@@ -21,7 +21,7 @@ public class YamlReader {
         loadData();
     }
 
-    public static YamlReader getInstance(){
+    public static YamlReader getInstance() {
         return INSTANCE;
     }
 
